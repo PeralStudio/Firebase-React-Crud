@@ -94,7 +94,7 @@ const LinksForm = (props) => {
       </div>
 
       <button className="btn btn-primary btn-block">
-        {props.currentId === "" ? "Save" : "Update"}
+        {props.currentId === "" ? "Add" : "Update"}
       </button>
     </form>
   );
